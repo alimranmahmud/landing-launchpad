@@ -1,0 +1,76 @@
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  margin: 0px;
+}
+.half-width{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* shared styles  */
+.primary-btn{
+   padding: 12px 36px;
+   background-color: #4E47FF;
+   border: none;
+   border-radius: 5px;
+   font-weight: 600;
+   color: #FFFFFF;
+}
+.light-color{
+    color: #B3B3B3;
+}
+
+/* header part*/
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    height: 698px;
+    background-size: cover;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-title{
+    font-weight: 900;
+    color: #4E47FF;
+    font-size: 34px;
+}
+.header-description-container{
+    text-align: center;
+    width: 905px;
+    margin: 0 auto;
+    margin-top: 158px;
+    
+}
+.header-descripton{
+font-size:3em;
+font-weight: 700;
+}
+
+/* See it in Action styles  */
+.see-section{
+    margin-top: 116px;
+    margin-bottom: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img{
+    border-radius: 40px;
+    width: 25%;
+}
+.see-one{
+    width: 30%;
+}
+.see-two{
+    width: 30%;
+}
