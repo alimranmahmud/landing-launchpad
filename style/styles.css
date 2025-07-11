@@ -5,6 +5,7 @@
   /* font-weight: <weight>; */
   font-style: normal;
   margin: 0px;
+  background-color: #4d47ff15;
 }
 .half-width{
     width: 1140px;
@@ -66,11 +67,99 @@ font-weight: 700;
 }
 .img{
     border-radius: 40px;
-    width: 25%;
+   
 }
 .see-one{
     width: 30%;
 }
 .see-two{
     width: 30%;
+}
+
+/* Users and followers styles  */
+.follower-container{
+    background-color: #4d47ff14;
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 137px;
+}
+.user-title{
+    text-align: center;
+}
+.users-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.users-container h1{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+}
+.users-container p{
+    font-size: 20px;
+}
+
+/* What our users say  */
+.users-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-card{
+    border: none;
+    border-radius: 15px;
+    padding:24px ;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+.user-img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.user-img-info{
+    display: flex;
+    align-items: center;
+}
+
+/* Ready to focus better styles  */
+.ready-section{
+    text-align: center;
+    margin: 137px 0px 92px 0px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+}
+.ready-section img{
+    border-radius: 25px;
+}
+
+/* Form styles  */
+.form-title{
+    font-size: 5em;
+}
+form label,.btn{
+    display: block;
+    margin-top: 19px;
+}
+form input,textarea{
+    padding: 20px 32px;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input,textarea{
+    border: none;
+    border-radius: 7px;
+    width: 497px;
+}
+.btn{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
 }
