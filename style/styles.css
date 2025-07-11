@@ -21,8 +21,17 @@
    font-weight: 600;
    color: #FFFFFF;
 }
+.primary-btn:hover{
+    background-color: #e48212;
+    cursor: pointer;
+    
+}
 .light-color{
     color: #8987A1;
+}
+a:hover{
+    cursor: pointer;
+    color: #e48212;
 }
 
 /* header part*/
