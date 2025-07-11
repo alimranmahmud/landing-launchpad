@@ -22,7 +22,7 @@
    color: #FFFFFF;
 }
 .light-color{
-    color: #B3B3B3;
+    color: #8987A1;
 }
 
 /* header part*/
@@ -160,6 +160,28 @@ input,textarea{
     width: 100%;
 }
 
+/* Footer section */
 footer{
     text-align: center;
+    padding: 104px 540px;
+    margin-top: 14px;
+}
+.footer-logo{
+color: #4E47FF;
+font-size: 4em;
+font-weight: 900;
+}
+footer ul li a{
+    text-decoration: none;
+    
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+ul li{
+    list-style: none;
 }
